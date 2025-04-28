@@ -8,7 +8,7 @@ Args:
     output_file_path (str): Path to save the results
 
 Usage:
-    python find-duplicates-to-csv.py ./reference.jpg --directory ./gallery --output output-file.csv
+    python ./src/find-duplicates-to-csv.py ./reference.jpg --directory ./gallery --output output-file.csv
 """
 
 import os

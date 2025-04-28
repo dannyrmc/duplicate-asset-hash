@@ -8,7 +8,7 @@ Args:
     output_file_path (str): Path to save the results
 
 Usage:
-    python find-duplicates-to-text.py ./reference.jpg --directory ./gallery --output output-file.txt
+    python ./src/find-duplicates-to-text.py ./reference.jpg --directory ./gallery --output output-file.txt
 """
 
 import os
