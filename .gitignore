@@ -175,3 +175,5 @@ cython_debug/
 
 /gallery
 reference.jpg
+output-file.csv
+output-file.txt

@@ -1,5 +1,6 @@
 """
-Find duplicate assets of a reference image based on the file hash
+Finds duplicate assets based on the file hash of a reference image
+and outputs any results to a .txt file
 
 Args:
     reference_image_path (str): Path to the reference image
@@ -7,7 +8,7 @@ Args:
     output_file_path (str): Path to save the results
 
 Usage:
-    python main.py ./reference.jpg --directory ./gallery --output output-file.txt
+    python find-duplicates-to-text.py ./reference.jpg --directory ./gallery --output output-file.txt
 
 """
 
